@@ -7,7 +7,7 @@ export default async function handler(req, res) {
   if (!symbol) { res.status(400).json({ error: 'symbol required' }); return; }
 
   try {
-    const FMP_KEY = 'demo';
+    const FMP_KEY = 'jWKdS9lVU0qWZc6r3bz2vk2oQ8o1vbGM';
     
     // Current quote
     const quoteResp = await fetch(
